@@ -18,11 +18,13 @@ npm install
 
 ## Variables de entorno
 
-Crear un archivo `.env` en la raíz del proyecto:
+Se puede definir un archivo `.env` en la raíz del proyecto si quieres sobrescribir la API por defecto:
 
 ```env
 VITE_API_URL=https://backend-react-fcsl.onrender.com/api-backend
 ```
+
+Si no se define, la app usa la URL de producción del backend por defecto.
 
 ## Ejecución
 
